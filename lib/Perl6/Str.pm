@@ -231,11 +231,11 @@ Perl6::Str - Grapheme level string implementation for Perl 5
 
     use Perl6::Str;
     use charnames qw(:full);
-    my $s = Perl6::Str->new("a\N{COMBING ACUTE ACCENT}");
+    my $s = Perl6::Str->new("a\N{COMBINING ACUTE ACCENT}");
     my $other = "\N{LATIN SMALL LETTER A WITH ACUTE}";
 
     if ($s eq $other) {
-        print "Equality compared as grapheme level\n";
+        print "Equality compared at grapheme level\n";
     }
 
     # just one grapheme:
@@ -270,7 +270,7 @@ C<Perl6::Str> is implemented in terms of a blessed reference to the
 underlying perl 5 string, and all operations are either overloaded operators
 or method calls. That means that the objects loose all their magic once they
 are interpolated into ordinary strings, and that all overloaded operations
-come with a speed panelty.
+come with a speed penalty.
 
 Also note that it's another layer of abstraction, and as such suffers a speed
 limit for all operations. If speed is important to you, benchmark this module
