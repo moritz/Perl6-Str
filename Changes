@@ -1,5 +1,7 @@
 Revision History for Perl module Perl6::Str
 
+0.0.2 Mon Jul 21 15:50:28 CEST 2008
+- Fixed typos in POD
 
 0.0.1 Mon Jul 21 12:44:30 CEST 2008
 - Initial release
