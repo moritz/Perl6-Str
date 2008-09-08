@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 use Module::Build;
-require 5.008001;
+require 5.008003;
 
 my $build = Module::Build->new(
     create_readme      => 1,
@@ -12,7 +12,7 @@ my $build = Module::Build->new(
     dist_abstract      => 'Perl 6 - like grapheme level string handling',
     dist_version_from  => 'lib/Perl6/Str.pm',
     requires => {
-        'perl'               => '5.8.1',
+        'perl'               => '5.8.3',
         'Unicode::Normalize' => 0,
         'Test::More'         => 0,
         'Encode'             => 0,
