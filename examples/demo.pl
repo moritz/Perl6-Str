@@ -6,7 +6,7 @@ use Perl6::Str;
 binmode STDOUT, ':encoding(UTF-8)';
 use charnames qw(:full);
 
-print "This script print out UTF-8.\n";
+print "This script prints out UTF-8.\n";
 print "If your console can't handle that, please edit this file to use\n";
 print "the appropriate encoding. Note that it will only work for Unicode encodings\n\n";
 
