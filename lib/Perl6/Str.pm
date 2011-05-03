@@ -262,13 +262,13 @@ an API similar to that of Perl 6 (as far as possible), and emulating common
 operations such as C<substr>, C<chomp> and C<chop> at the grapheme level.
 It also introduces builtin string methods found in Perl 6 such as C<samecase>.
 
-C<Perl6::Str> is written in pure perl 5.
+C<Perl6::Str> is written in pure Perl 5.
 
 =head1 CAVEATS
 
 C<Perl6::Str> is implemented in terms of a blessed reference to the
 underlying perl 5 string, and all operations are either overloaded operators
-or method calls. That means that the objects loose all their magic once they
+or method calls. That means that the objects lose all their magic once they
 are interpolated into ordinary strings, and that all overloaded operations
 come with a speed penalty.
 
