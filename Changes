@@ -1,5 +1,7 @@
 Revision History for Perl module Perl6::Str
 
+- fixed typos in Pod
+- source now lives on github
 - bumped minimal perl version to 5.8.3, since older perls don't 
   like my usage of use Exporter qw(import);
 
