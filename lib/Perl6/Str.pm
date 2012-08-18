@@ -6,7 +6,7 @@ package Perl6::Str;
 
 use strict;
 use warnings;
-our $VERSION = '0.0.4';
+our $VERSION = '0.0.5';
 use Encode qw(encode_utf8);
 use Unicode::Normalize qw();
 
