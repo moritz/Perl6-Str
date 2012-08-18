@@ -264,6 +264,9 @@ It also introduces builtin string methods found in Perl 6 such as C<samecase>.
 
 C<Perl6::Str> is written in pure Perl 5.
 
+For a description of the Perl 6 C<Str> type, please see
+L<http://doc.perl6.org/type/Str>.
+
 =head1 CAVEATS
 
 C<Perl6::Str> is implemented in terms of a blessed reference to the
